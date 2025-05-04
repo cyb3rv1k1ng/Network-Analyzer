@@ -1,0 +1,9 @@
+interface: "eth0"       # Interface to sniff
+capture_filter: "ip"    # BPF filter
+alert_threshold: 10     # Packet flood threshold
+suspicious_ports:
+  - 4444
+  - 1337
+  - 6667
+enable_webhook: false
+webhook_url: ""

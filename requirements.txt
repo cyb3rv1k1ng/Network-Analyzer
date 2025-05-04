@@ -11,5 +11,5 @@ Real-time network packet capturing and anomaly detection using Python.
 - Logs all alerts to file
 
 ## Installation
-```bash
+
 pip install -r requirements.txt
